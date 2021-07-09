@@ -1,8 +1,33 @@
+.card {
+
+}
+
+.card-accomodation {
+  background-color: #F2F2F2;
+  border-radius:  15px;
+}
+
+.card-accomodation > h1 {
+  margin:  24px;
+}
+
+.card-display {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.card-popular {
+
+}
+
 .card-appartment {
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-radius:  5px;
+  border-radius: 15px;
+  margin:  24px;
 }
 
 .card-appartment > img {

@@ -1,9 +1,6 @@
 .container {
-  display:  flex;
-  background-color: #F2F2F2;
   width: 1000px;
   margin: 0 auto;
-  border-radius: 5px;
 }
 
 @media (max-width: 900px) {
