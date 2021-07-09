@@ -1,6 +1,13 @@
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
 .container {
+  background-color: #F2F2F2;
   width: 1000px;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 @media (max-width: 900px) {
@@ -11,12 +18,12 @@
 
 @media (max-width: 700px) {
   .container {
-    width:  4000px;
+    width: 400px;
   }
  }
 
  @media (max-width: 450px) {
   .container {
-    width:  3000px;
+    width: 300px;
   }
  }
