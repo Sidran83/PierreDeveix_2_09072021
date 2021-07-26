@@ -1,0 +1,159 @@
+body {
+}
+
+#bloc_page {
+  width:  900px;
+  margin:  auto;
+}
+
+#full_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#full_navbar a {
+  text-decoration: none;
+}
+
+#login_and_navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+#login a {
+  color:  #0065FC;
+  font-weight: bold;
+}
+
+#navbar {
+  overflow: hidden;
+}
+
+
+
+#navbar nav li a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  margin-right: 15px;
+  text-decoration: none;
+  color:  black;
+}
+
+#navbar nav li a:hover {
+  border-bottom: 3px solid #0065FC;
+}
+
+#navbar nav li a.active {
+  border-bottom: 3px solid #0065FC;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+
+}
+
+nav li a {
+
+}
+
+
+
+
+
+
+
+.card {
+
+}
+
+.card-accomodation {
+  background-color: #F2F2F2;
+  border-radius:  15px;
+}
+
+.card-accomodation > h1 {
+  margin:  24px;
+}
+
+.card-display {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.card-popular {
+
+}
+
+.card-appartment {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  margin:  24px;
+}
+
+.card-appartment > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-appartment h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-appartment p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-appartment .card-appartment-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-appartment-infos {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+
+
+
+
+footer {
+  background: #F2F2F2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+}
+.footer-heading > ul {
+  list-style: none;
+}
+.footer-heading > ul > li > a {
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+}
