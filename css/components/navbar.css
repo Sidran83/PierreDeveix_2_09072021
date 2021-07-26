@@ -48,4 +48,17 @@
 }
 
 
+@media all and (max-width:  1024px) {
+  #full_navbar {
+    display:  flex;
+  flex-wrap: wrap;
+}
 
+  #login_and_navbar {
+  display:  flex;
+  align-items: center;
+  flex-direction: row;
+  }
+
+
+}

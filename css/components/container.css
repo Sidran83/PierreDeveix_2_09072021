@@ -6,3 +6,9 @@ body {
   width:  900px;
   margin:  auto;
 }
+
+@media all and (max-width:  1024px) {
+  #bloc_page {
+    width:  auto;
+  }
+}
