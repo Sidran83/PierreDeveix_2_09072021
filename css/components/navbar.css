@@ -34,18 +34,23 @@
   text-decoration: none;
   border-top: 3px solid transparent;
   margin-right: 15px;
-  text-decoration: none;
   color:  black;
 }
 
 #navbar nav li a:hover {
   border-top: 3px solid #0065FC;
+    color: #0065FC;
+
 }
 
+/*#navbar nav li a:active {
+  border-top: 3px solid #0065FC;
+}*/
+/*
 #navbar nav li a.active {
   border-top: 3px solid #0065FC;
   color:  #0065FC;
-}
+}*/
 
 
 @media all and (max-width:  1024px) {
@@ -57,7 +62,7 @@
   #login_and_navbar {
   display:  flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   }
 
 

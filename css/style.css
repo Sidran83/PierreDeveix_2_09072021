@@ -1,5 +1,4 @@
 /* Font and Icons */
-@import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 /* Components design */
@@ -8,3 +7,4 @@
 @import url("components/search.css");
 @import url("components/footer.css");
 @import url("components/cards.css");
+
