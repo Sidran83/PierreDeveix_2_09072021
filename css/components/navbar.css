@@ -1,6 +1,9 @@
 #full_navbar {
   background-image: url("../../images/logo/Reservia.svg");
   background-repeat: no-repeat;
+
+
+  background-position:  25px 25px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -8,6 +11,10 @@
 
 
 /*LOGIN*/
+
+#login {
+  margin-top:  42px;
+}
 #login a {
   color:  #0065FC;
   font-weight: bold;
@@ -20,6 +27,7 @@
   list-style: none;
   display: flex;
 }
+
 
 #navbar nav li a {
 
@@ -40,19 +48,42 @@
 
 
 @media all and (max-width:  1024px) {
+
+
   #full_navbar {
     display: flex;
     flex-direction: column;
   }
 
   #login {
-
+    display:  flex;
     justify-content: flex-end;
   }
 
   #navbar {
-    justify-content:  space-between;
+   /* display:  flex;
+    justify-content:  space-between;*/
+    width:  100%;
   }
+
+  #navbar nav {
+    width:  100%;
+  }
+
+  #navbar nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding:  0px;
+    padding-top: 20px;
+    width:  100%;
+  }
+
+  #navbar nav li {
+    width:  50%;
+    text-align:  center;
+  }
+
 
   #navbar nav li a {
 

@@ -8,18 +8,22 @@
 
 #filters ul {
   display:  flex;
+  flex-wrap:  wrap;
   justify-content: space-between;
   list-style:  none;
+}
+
+#filters li {
+  border: 1px solid #4A4A4A;
+  border-radius: 20px;
+  padding: 12px 24px;
+  margin:  12px;
 }
 
 #filters li a {
   color:  black;
   text-decoration:  none;
   font-weight: bold;
-  border: 1px solid #4A4A4A;
-  padding: 12px 24px;
-  margin:  12px;
-  border-radius: 50px;
 }
 
 #filters li a i {
@@ -29,16 +33,19 @@
 
 #search-bar {
   border:  1px solid black;
+  width: fit-content;
+  border-radius:  12px;
+  height:  32px;
 
 }
 
 #search-button {
+  height:  32px;
   color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background: #0065FC;
   border:  0px;
-
 }
 
 input {
