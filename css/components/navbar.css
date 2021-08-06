@@ -28,24 +28,26 @@
   display: flex;
 }
 
+#navbar nav ul li {
+  border-top: 3px solid transparent;
+  padding-top:  39px;
+}
 
 #navbar nav li a {
-
-
-
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-top: 3px solid transparent;
   margin-right: 15px;
   color:  black;
 }
 
-#navbar nav li a:hover {
+#navbar nav ul li:hover {
   border-top: 3px solid #0065FC;
-  color: #0065FC;
 }
 
+#navbar nav ul li:hover a {
+  color: #0065FC;
+}
 
 @media all and (max-width:  1024px) {
 
@@ -56,6 +58,8 @@
   }
 
   #login {
+    width: 100%;
+    padding-right: 12px;
     display:  flex;
     justify-content: flex-end;
   }
@@ -80,6 +84,7 @@
   }
 
   #navbar nav li {
+
     width:  50%;
     text-align:  center;
   }
