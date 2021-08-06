@@ -51,7 +51,6 @@
 
 @media all and (max-width:  1024px) {
 
-
   #full_navbar {
     display: flex;
     flex-direction: column;

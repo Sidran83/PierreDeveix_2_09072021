@@ -103,7 +103,14 @@
 }
 #info i {
   color:  #0065FC;
-  margin-right: 12px;
+  margin-right: 10px ;
+  border: 1px solid #DEEBFF;
+  border-radius: 50%;
+  padding: 3px;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  font-size: 12px;
 }
 
 @media all and (max-width:  1024px) {
