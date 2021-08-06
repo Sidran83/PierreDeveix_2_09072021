@@ -91,3 +91,13 @@
 }
 
 
+/*INFO*/
+#info {
+  display:  flex;
+  align-items:  center
+}
+#info i {
+  color:  #0065FC;
+  margin-right: 12px;
+}
+
