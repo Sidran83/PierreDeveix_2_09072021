@@ -1,5 +1,10 @@
+/* Font and Icons */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 /* Components design */
 @import url("components/container.css");
 @import url("components/navbar.css");
+@import url("components/search.css");
 @import url("components/footer.css");
 @import url("components/cards.css");
+

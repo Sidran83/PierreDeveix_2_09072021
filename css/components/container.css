@@ -1,8 +1,18 @@
 
 body {
+  font-family: Raleway;
+  margin: 0px;
+  padding:  0px;
 }
 
+
+
 #bloc_page {
-  width:  900px;
-  margin:  auto;
+  margin:  24px;
+}
+
+@media all and (max-width:  1024px) {
+  #bloc_page {
+    width:  auto;
+  }
 }

@@ -1,59 +1,105 @@
 #full_navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
+  background-image: url("../../images/logo/Reservia.svg");
+  background-repeat: no-repeat;
 
-#full_navbar a {
-  text-decoration: none;
-}
 
-#login_and_navbar {
+  background-position:  25px 25px;
   display: flex;
-  align-items: center;
   flex-direction: row-reverse;
+  align-items: center;
 }
 
+
+/*LOGIN*/
+
+#login {
+  margin-top:  42px;
+}
 #login a {
   color:  #0065FC;
   font-weight: bold;
+  text-decoration: none;
 }
 
-#navbar {
-  overflow: hidden;
-}
 
+/*NAVBAR*/
+#navbar nav ul {
+  list-style: none;
+  display: flex;
+}
 
 
 #navbar nav li a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
+
+
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-top: 3px solid transparent;
+  margin-right: 15px;
+  color:  black;
+}
+
+#navbar nav li a:hover {
+  border-top: 3px solid #0065FC;
+  color: #0065FC;
+}
+
+
+@media all and (max-width:  1024px) {
+
+
+  #full_navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #login {
+    display:  flex;
+    justify-content: flex-end;
+  }
+
+  #navbar {
+   /* display:  flex;
+    justify-content:  space-between;*/
+    width:  100%;
+  }
+
+  #navbar nav {
+    width:  100%;
+  }
+
+  #navbar nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding:  0px;
+    padding-top: 20px;
+    width:  100%;
+  }
+
+  #navbar nav li {
+    width:  50%;
+    text-align:  center;
+  }
+
+
+  #navbar nav li a {
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   border-bottom: 3px solid transparent;
   margin-right: 15px;
-  text-decoration: none;
   color:  black;
 }
-
-#navbar nav li a:hover {
+  #navbar nav li a:hover {
+  border-top:  none;
   border-bottom: 3px solid #0065FC;
-}
-
-#navbar nav li a.active {
-  border-bottom: 3px solid #0065FC;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
+  color: #0065FC;
 
 }
 
-nav li a {
 
 }
-
