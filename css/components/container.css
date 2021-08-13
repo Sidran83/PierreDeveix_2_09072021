@@ -15,7 +15,12 @@ header {
 }
 
 @media all and (max-width:  1024px) {
-  #bloc_page {
-    width:  auto;
+
+  header {
+    margin:  0px;
   }
+
+  #bloc_page {
+  margin:  0px;
+}
 }
