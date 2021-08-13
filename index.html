@@ -1,209 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Réservia</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-  <script src="https://kit.fontawesome.com/da3e0552c2.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <header>
-    <div id="full_navbar">
-      <div id="login">
-        <a href="#">S'inscrire</a>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservia</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <script src="https://kit.fontawesome.com/da3e0552c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div id="full_navbar">
+        <div id="login">
+          <a href="#">S'inscrire</a>
+        </div>
+        <div id="navbar">
+          <nav>
+            <ul>
+              <li><a href="#">Hébergements</a></li>
+              <li><a href="#">Activités</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div id="navbar">
-        <nav>
+    </header>
+
+    <div id="bloc_page">
+
+      <section id="search">
+        <div id="title">
+          <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+          <p>En plein centre-ville ou en pleine nature</p>
+        </div>
+
+        <div id="search-bar">
+          <form>
+            <i class="fas fa-map-marker-alt"></i>
+            <input placeholder="Marseille, France" style="color: black;">
+            <button id="search-button">
+              Rechercher
+            </button>
+          </form>
+        </div>
+
+        <div id="filters">
+          <h4>Filtres</h4>
           <ul>
-            <li><a href="#">Hébergements</a></li>
-            <li><a href="#">Activités</a></li>
+            <li><a href="#"><i class="fas fa-money-bill-wave"></i><span>Economique</span></a></li>
+            <li><a href="#"><i class="fas fa-child"></i><span>Familial</span></a></li>
+            <li><a href="#"><i class="fas fa-heart"></i><span>Romantique</span></a></li>
+            <li><a href="#"><i class="fas fa-dog"></i><span>Animaux authorisés</span></a></li>
           </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <div id="bloc_page">
+        </div>
 
-    <section id="search">
-      <div id="title">
-        <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
-        <p>En plein centre-ville ou en pleine nature</p>
-      </div>
+        <div id="info">
+          <i class="fas fa-info"></i>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+      </section>
 
-      <div id="search-bar">
-        <form>
-          <i class="fas fa-map-marker-alt"></i>
-          <input placeholder="Marseille, France" style="color: black;">
-          <button id="search-button">
-            Rechercher
-          </button>
-        </form>
-      </div>
+      <section id="accomodation">
 
-      <div id="filters">
-        <h4>Filtres</h4>
-        <ul>
-          <li><a href="#"><i class="fas fa-money-bill-wave"></i><span>Economique</span></a></li>
-          <li><a href="#"><i class="fas fa-child"></i><span>Familial</span></a></li>
-          <li><a href="#"><i class="fas fa-heart"></i><span>Romantique</span></a></li>
-          <li><a href="#"><i class="fas fa-dog"></i><span>Animaux authorisés</span></a></li>
-        </ul>
-      </div>
+        <div id="card-accomodation">
+          <h1>Hébergements à Marseille</h1>
 
-      <div id="info">
-        <i class="fas fa-info"></i>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-      </div>
-    </section>
+          <div id="card-display">
 
-    <section id="accomodation">
+            <div class="card-appartment">
+              <img class="rounded" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+              <div class="card-appartment-infos">
 
-      <div id="card-accomodation">
-        <h1>Hébergements à Marseille</h1>
-
-        <div id="card-display">
-          <div class="card-appartment">
-            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
-            <div class="card-appartment-infos">
-              <div>
                 <h2>Auberge la Cannebière</h2>
                 <p>Nuit à partir de 25 euros</p>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #F2F2F2;"></i>
               </div>
             </div>
-          </div>
 
-          <div class="card-appartment">
-            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
-            <div class="card-appartment-infos">
-              <div>
+            <div class="card-appartment">
+              <img class="rounded" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
+              <div class="card-appartment-infos">
                 <h2>Hôtel du Port</h2>
-                <p></p>
+                <p>Nuit à partir de 24 euros</p>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
               </div>
             </div>
-          </div>
 
-          <div class="card-appartment">
-            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
-            <div class="card-appartment-infos">
-              <div>
+            <div class="card-appartment">
+              <img class="rounded" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
+              <div class="card-appartment-infos">
                 <h2>Hôtel les Mouettes</h2>
                 <p>Nuit à partir de</p>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #F2F2F2;"></i>
               </div>
             </div>
-          </div>
 
-          <div class="card-appartment">
-            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
-            <div class="card-appartment-infos">
-              <div>
+            <div class="card-appartment">
+              <img class="rounded" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+              <div class="card-appartment-infos">
                 <h2>Auberge la Cannebière</h2>
                 <p>Nuit à partir de 25 euros</p>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #F2F2F2;"></i>
+                <i class="fas fa-star" style="color: #F2F2F2;"></i>
               </div>
             </div>
-          </div>
 
-          <div class="card-appartment">
-            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
-            <div class="card-appartment-infos">
-              <div>
+            <div class="card-appartment">
+              <img class="rounded" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+              <div class="card-appartment-infos">
                 <h2>Auberge la Cannebière</h2>
                 <p>Nuit à partir de 25 euros</p>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #F2F2F2;"></i>
               </div>
             </div>
-          </div>
 
-          <div class="card-appartment">
-            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
-            <div class="card-appartment-infos">
-              <div>
+            <div class="card-appartment">
+              <img class="rounded" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+              <div class="card-appartment-infos">
                 <h2>Auberge la Cannebière</h2>
                 <p>Nuit à partir de 25 euros</p>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
+                <i class="fas fa-star" style="color: #0065FC;"></i>
               </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div id="card-popular">
+          <div id="title">
+            <h1>Les plus populaires</h1>
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="card-appartment">
+            <img class="rounded" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+            <div class="card-appartment-infos">
+                <h2>Auberge la Cannebière</h2>
+                <p>Nuit à partir de 25 euros</p>
+              <i class="fas fa-star" style="color: #0065FC;"></i>
+              <i class="fas fa-star" style="color: #0065FC;"></i>
+              <i class="fas fa-star" style="color: #0065FC;"></i>
+              <i class="fas fa-star" style="color: #0065FC;"></i>
+              <i class="fas fa-star" style="color: #F2F2F2;"></i>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="card-popular">
-        <h1>Les plus populaires</h1>
-        <div class="card-appartment">
-          <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
-          <div class="card-appartment-infos">
-            <div>
-              <h2>Auberge la Cannebière</h2>
-              <p>Nuit à partir de 25 euros</p>
+      <section id="activities">
+
+          <h1>Activités à Marseille</h1>
+
+          <div class="card-display">
+            <div class="card-activity">
+              <!-- <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" /> -->
+              <div class="card-activity-infos">
+                <div>
+                  <h2></h2>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-activity">
+              <!-- <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" /> -->
+              <div class="card-activity-infos">
+                <div>
+                  <h2></h2>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-activity">
+              <!-- <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" /> -->
+              <div class="card-activity-infos">
+                <div>
+                  <h2></h2>
+                  <p></p>
+                </div>
+              </div>
             </div>
           </div>
+      </section>
+
+
+      <footer>
+        <div class="footer-heading">
+          <ul>
+            <h3>A propos</h3>
+            <li><a href="#">Fonctionnement du site</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="#">Données et confidentialités</a></li>
+          </ul>
         </div>
-      </div>
-
-    </section>
-
-    <section id="activities">
-
-        <h1>Activités à Marseille</h1>
-
-        <div class="card-display">
-          <div class="card-activity">
-            <!-- <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" /> -->
-            <div class="card-activity-infos">
-              <div>
-                <h2></h2>
-                <p></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-activity">
-            <!-- <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" /> -->
-            <div class="card-activity-infos">
-              <div>
-                <h2></h2>
-                <p></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-activity">
-            <!-- <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" /> -->
-            <div class="card-activity-infos">
-              <div>
-                <h2></h2>
-                <p></p>
-              </div>
-            </div>
-          </div>
+        <div class="footer-heading">
+          <ul>
+          <h3>Nos hébergements</h3>
+            <li><a href="#">Charte qualité</a></li>
+            <li><a href="#">Soumettre votre hôtel</a></li>
+          </ul>
         </div>
-    </section>
+        <div class="footer-heading">
+          <ul>
+            <h3>Assistance</h3>
+            <li><a href="#">Centre d'aide</a></li>
+            <li><a href="#">Nous contacter</a></li>
+          </ul>
+        </div>
+      </footer>
 
-  </div>
-    <footer>
-      <div class="footer-heading">
-        <ul>
-          <h3>A propos</h3>
-          <li><a href="#">Fonctionnement du site</a></li>
-          <li><a href="#">Conditions générales de vente</a></li>
-          <li><a href="#">Données et confidentialités</a></li>
-        </ul>
-      </div>
-      <div class="footer-heading">
-        <ul>
-        <h3>Nos hébergements</h3>
-          <li><a href="#">Charte qualité</a></li>
-          <li><a href="#">Soumettre votre hôtel</a></li>
-        </ul>
-      </div>
-      <div class="footer-heading">
-        <ul>
-          <h3>Assistance</h3>
-          <li><a href="#">Centre d'aide</a></li>
-          <li><a href="#">Nous contacter</a></li>
-        </ul>
-      </div>
-    </footer>
-</body>
+    </div>
+  </body>
 </html>
 
