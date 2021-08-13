@@ -82,14 +82,14 @@
 }
 
 #card-popular .card-appartment {
-
+  display:  flex;
+  justify-content:  space-between;
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
   margin:  24px;
   width:  350px;
-  height:  200px;
 }
 
 
@@ -98,7 +98,7 @@
   width:  260px;
   padding:  5px;
   border-top-left-radius:  15px;
-  border-top-right-radius:  15px;
+  border-bottom-left-radius:  15px;
 }
 
 #card-popular .card-appartment-infos {
