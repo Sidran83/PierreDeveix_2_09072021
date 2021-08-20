@@ -20,6 +20,11 @@
   border-radius: 15px;
 }
 
+#card-display h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 24px;
+}
 
 #card-display .card-appartment {
   display:  flex;
@@ -32,6 +37,7 @@
 }
 
 #card-display .card-appartment .rounded {
+  object-fit:  cover;
   height: 130px;
   width:  260px;
   padding:  5px;
@@ -47,6 +53,7 @@
   font-weight: bold;
   margin: 0;
   padding-bottom: 5px;
+  padding-left: 0px;
 }
 
 #card-display .card-appartment-infos p {
@@ -73,16 +80,23 @@
 #card-popular #title {
   display:  flex;
   justify-content:  space-between;
+  padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+#card-popular #title h1 {
+  padding-left:  22px;
 }
 
 #card-popular #title i {
-  font-size:  30px;
-  margin:  16px;
+  font-size: 25px;
+  margin: 16px;
+  padding-right: 8px;
+  padding-top: 4px;
 }
 
 #card-popular .card-appartment {
   display:  flex;
-  justify-content:  space-between;
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -91,10 +105,18 @@
   width:  350px;
 }
 
+#card-popular .card-appartment-infos .stars {
+  padding-top:  28px;
+}
+
+#card-popular .card-appartment .first-line {
+  padding-top:  14px;
+}
 
 #card-popular .card-appartment .rounded {
+  object-fit: cover;
   height: 130px;
-  width:  260px;
+  width:  130px;
   padding:  5px;
   border-top-left-radius:  15px;
   border-bottom-left-radius:  15px;

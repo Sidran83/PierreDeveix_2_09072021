@@ -1,11 +1,25 @@
 #activities {
   display:  flex;
   flex-direction:  column;
+  padding-top:  30px;
 }
+
 
 #card-display-activities {
   display:  flex;
   justify-content:  space-between;
+}
+
+.card-activity-infos {
+  height:  50px;
+}
+
+.card-activity-infos h2 {
+  padding-top:  12px;
+  margin:  5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left:  10px;
 }
 
 #activities .card-activity {
@@ -15,8 +29,8 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-  margin:  24px;
-}
+/*  margin:  24px;
+*/}
 
 
 #activities .card-activity .rounded-big {
@@ -48,7 +62,7 @@
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-  margin:  24px;
+
 }
 
 #card-group1 #second-card {
@@ -57,8 +71,8 @@
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-  margin:  24px;
-  margin-top:  80px;
+
+  margin-top:  50px;
   margin-bottom:  0px;
 
 }
@@ -66,7 +80,7 @@
 
 #card-group1 #first-card .rounded{
   object-fit:  cover;
-  height: 160px;
+  height: 180px;
   width:  300px;
   border-top-left-radius:  15px;
   border-top-right-radius:  15px;
@@ -74,7 +88,7 @@
 
 #card-group1 #second-card .rounded{
   object-fit:  cover;
-  height: 100px;
+  height: 110px;
   width:  300px;
   border-top-left-radius:  15px;
   border-top-right-radius:  15px;
@@ -93,7 +107,7 @@
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-  margin:  24px;
+
 }
 
 #card-group2 #second-card {
@@ -102,14 +116,14 @@
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-  margin:  24px;
-  margin-top:  80px;
+
+  margin-top:  40px;
   margin-bottom:  0px;
 }
 
 #card-group2 #first-card .rounded{
   object-fit:  cover;
-  height: 160px;
+  height: 140px;
   width:  300px;
   border-top-left-radius:  15px;
   border-top-right-radius:  15px;
@@ -117,7 +131,7 @@
 
 #card-group2 #second-card .rounded{
   object-fit:  cover;
-  height: 100px;
+  height: 160px;
   width:  300px;
   border-top-left-radius:  15px;
   border-top-right-radius:  15px;
@@ -129,8 +143,3 @@
   flex-direction:  column;
 
 }*/
-#activities h2 {
-  margin:  5px;
-  font-size: 16px;
-    font-weight: bold;
-}
