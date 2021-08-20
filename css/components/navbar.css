@@ -82,28 +82,31 @@
     width:  100%;
   }
 
-  #navbar nav li {
-
+  #navbar nav ul li {
     width:  50%;
     text-align:  center;
+    border-top:  none;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom:  16px;
   }
 
   #navbar nav ul li:hover {
-    border-top: none;
+    border-top:  none;
+    border-bottom-color: #0065FC;
   }
 
   #navbar nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-bottom: 3px solid transparent;
+  /*border-bottom: 3px solid transparent;*/
   margin-right: 15px;
   color:  black;
   }
 
   #navbar nav li a:hover {
-  border-top:  none;
-  border-bottom: 3px solid #0065FC;
-  color: #0065FC;
+    border-top:  none;
+    border-bottom:  none;
+    color: #0065FC;
   }
 }
