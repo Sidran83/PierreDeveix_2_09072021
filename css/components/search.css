@@ -1,4 +1,4 @@
-/*TITLE*/
+/*------ TITLE ------*/
 #title h3 {
  font-weight:  bolder;
 }
@@ -8,8 +8,7 @@
 }
 
 
-
-/*SEARCH BAR*/
+/*------ SEARCH BAR ------*/
 #search-bar {
   border:  1px solid #F2F2F2;
   width: fit-content;
@@ -46,8 +45,7 @@
 }
 
 
-
-/*FILTERS*/
+/*------ FILTERS ------*/
 #filters h4 {
   font-weight:  bolder;
 }
@@ -68,11 +66,11 @@
 }
 
 #filters li {
-  height: 18px;
+  height: 43px;
   border: 2px solid #F2F2F2;
-  border-radius: 20px;
-  padding: 12px 0px 12px 0px;
-  margin:  12px;
+  border-radius: 39px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 #filters li a {
@@ -88,16 +86,35 @@
   border: 1px #4A4A4A;
   padding:  12px;
   background-color:  #DEEBFF;
+  text-align: center;
+  width: 20px;
+  height: 20px;
 }
 
+#filters li a span {
+  padding-left:  10px;
+  padding-right: 10px;
+}
 
-/*INFO*/
+/*------- INFO --------*/
 #info {
   display:  flex;
   align-items:  center
 }
 #info i {
   color:  #0065FC;
-  margin-right: 12px;
+  margin-right: 10px ;
+  border: 1px solid #DEEBFF;
+  border-radius: 50%;
+  padding: 3px;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  font-size: 12px;
 }
 
+@media all and (max-width:  1024px) {
+  #title h3 {
+    white-space: normal;
+  }
+}

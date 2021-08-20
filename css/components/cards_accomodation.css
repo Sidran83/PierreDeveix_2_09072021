@@ -1,0 +1,186 @@
+#accomodation {
+  display:  flex;
+  justify-content: space-between;
+}
+
+#card-accomodation {
+  background-color: #F2F2F2;
+  border-radius:  15px;
+  margin-right:  15px;
+}
+
+#card-accomodation > h1 {
+  margin:  24px;
+}
+
+#card-display {
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+#card-display h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 24px;
+}
+
+#card-display .card-appartment {
+  display:  flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  margin:  24px;
+}
+
+#card-display .card-appartment .rounded {
+  object-fit:  cover;
+  height: 130px;
+  width:  260px;
+  padding:  5px;
+  border-top-left-radius:  15px;
+  border-top-right-radius:  15px;
+}
+
+#card-display .card-appartment-infos {
+  padding-left:  16px;
+}
+#card-display .card-appartment-infos h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+#card-display .card-appartment-infos p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+#card-display .card-appartment-infos i {
+  padding-bottom: 5px;
+  font-size:  13px;
+}
+
+
+#card-popular {
+  display:  flex;
+  flex-direction:  column;
+  background-color: #F2F2F2;
+  border-radius:  15px;
+  margin-left:  15px;
+}
+
+#card-popular #title {
+  display:  flex;
+  justify-content:  space-between;
+  padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+#card-popular #title h1 {
+  padding-left:  22px;
+}
+
+#card-popular #title i {
+  font-size: 25px;
+  margin: 16px;
+  padding-right: 8px;
+  padding-top: 4px;
+}
+
+#card-popular .card-appartment {
+  display:  flex;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  margin:  24px;
+  width:  350px;
+}
+
+#card-popular .card-appartment-infos .stars {
+  padding-top:  28px;
+}
+
+#card-popular .card-appartment .first-line {
+  padding-top:  14px;
+}
+
+#card-popular .card-appartment .rounded {
+  object-fit: cover;
+  height: 130px;
+  width:  130px;
+  padding:  5px;
+  border-top-left-radius:  15px;
+  border-bottom-left-radius:  15px;
+}
+
+#card-popular .card-appartment-infos {
+  padding-left:  16px;
+}
+#card-popular .card-appartment-infos h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+#card-popular .card-appartment-infos p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+#card-popular .card-appartment-infos i {
+  padding-bottom: 5px;
+  font-size:  13px;
+}
+
+
+@media all and (max-width:  1024px) {
+  #accomodation {
+    display:  flex;
+    flex-direction:  column-reverse;
+  }
+
+  #card-accomodation {
+    margin-right:  0px;
+    border-radius:  0;
+    background-color:  white;
+  }
+
+  #card-display {
+    display:  flex;
+    flex-direction:  column;
+    margin-left: 0px;
+    border-radius:  0 0 0 0;
+    width:  auto;
+  }
+
+
+
+  #card-popular {
+    margin-left: 0px;
+    border-radius:  0 0 0 0;
+    width:  auto;
+  }
+
+  #card-popular .card-appartment {
+    height:  200px;
+    width:  400px;
+    align-self: center;
+  }
+  #card-display .card-appartment {
+    height:  200px;
+    width:  400px;
+    align-self:  center;
+  }
+}

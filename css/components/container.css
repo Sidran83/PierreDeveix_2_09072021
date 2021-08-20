@@ -1,18 +1,26 @@
 
+
 body {
   font-family: Raleway;
   margin: 0px;
   padding:  0px;
 }
 
-
+header {
+  margin-right:  60px;
+}
 
 #bloc_page {
   margin:  24px;
 }
 
 @media all and (max-width:  1024px) {
-  #bloc_page {
-    width:  auto;
+
+  header {
+    margin:  0px;
   }
+
+  #bloc_page {
+  margin:  0px;
+}
 }
