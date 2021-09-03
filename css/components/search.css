@@ -114,7 +114,20 @@
 }
 
 @media all and (max-width:  1024px) {
+  #title {
+    padding-left:  24px;
+    padding-right:  24px;
+  }
   #title h3 {
     white-space: normal;
+    font-size:  30px;
+  }
+
+  #title p {
+    font-size:  17px;
+  }
+
+  #search-bar {
+    margin-left:  24px;
   }
 }
