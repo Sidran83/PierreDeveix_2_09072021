@@ -13,6 +13,11 @@
   margin:  24px;
 }
 
+#card-accomodation h2 {
+  margin-left:  26px;
+  font-size:  20px;
+}
+
 #card-display {
   display: flex;
   flex-wrap:  wrap;

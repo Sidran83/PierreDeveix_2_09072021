@@ -136,6 +136,10 @@
   border-top-left-radius:  15px;
   border-top-right-radius:  15px;
 }
+
+@media all and (max-width:  1024px) {
+
+}
 /*
 #card-group2 {
   display:  flex;

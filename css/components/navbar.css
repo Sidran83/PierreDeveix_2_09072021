@@ -63,6 +63,13 @@
     justify-content: flex-end;
   }
 
+  #login a {
+    margin-right: 12px;
+    color:  #0065FC;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
   #navbar {
    /* display:  flex;
     justify-content:  space-between;*/
