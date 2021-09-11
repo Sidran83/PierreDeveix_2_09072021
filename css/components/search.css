@@ -133,6 +133,15 @@
 
   #title h3 {
     white-space: normal;
+    font-size:  30px;
+  }
+
+  #title p {
+    font-size:  17px;
+  }
+
+  #search-bar {
+    margin-left:  24px;
   }
 
   #search-bar {
