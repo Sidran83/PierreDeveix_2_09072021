@@ -138,12 +138,137 @@
 }
 
 @media all and (max-width:  1024px) {
+  #activities {
+    display:  flex;
+    flex-direction:  column;
+  }
 
+  #card-display-activities {
+    display:  flex;
+    flex-direction:  column;
+    margin-left: 0px;
+    border-radius:  0 0 0 0;
+    width:  auto;
+  }
+
+  .card-activity {
+    align-self: center;
+    height:  210px;
+    width:  400px;
+  }
+
+  #activities .card-activity .rounded-big {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+
+  #card-group1  #first-card {
+    align-self: center;
+    height:  210px;
+    width:  400px;
+   }
+
+  #card-group1  #first-card .rounded {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   }
+
+   #card-group1 #second-card .rounded {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   }
+
+   #card-group2  #first-card .rounded {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   }
+
+   #card-group2 #second-card .rounded {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   }
+
+  #card-group1  #second-card {
+    align-self: center;
+    height:  210px;
+    width:  400px;
+  }
+
+  #card-group2  #first-card {
+    align-self: center;
+    height:  210px;
+    width:  400px;
+   }
+
+  #card-group2  #second-card {
+    align-self: center;
+    height:  210px;
+    width:  400px;
+  }
+
+  #card-group1 #first-card .rounded {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  #activities .card-activity .rounded-big {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  /*#card-activity {
+    align-self: center;
+    margin-right:  0px;
+    border-radius:  0;
+    background-color:  white;
+  }
+
+  #activities .card-activity {
+    height:  140px;
+    width:  400px;
+  }
+
+
+  #activities .card-activity .rounded-big {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+*/
+  /*#card-
+  #first-card
+  #second-card*/
 }
-/*
-#card-group2 {
-  display:  flex;
-  align-content:  space-between;
-  flex-direction:  column;
 
-}*/

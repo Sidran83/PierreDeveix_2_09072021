@@ -179,13 +179,22 @@
   }
 
   #card-popular .card-appartment {
-    height:  200px;
+    height:  140px;
     width:  400px;
     align-self: center;
   }
   #card-display .card-appartment {
-    height:  200px;
+    height:  210px;
     width:  400px;
     align-self:  center;
+  }
+
+  #card-display .card-appartment .rounded {
+    object-fit: cover;
+    height: 130px;
+    width: 390px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 }
