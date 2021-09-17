@@ -3,14 +3,21 @@ footer {
   background: #F2F2F2;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 
 }
+
+.footer-heading {
+  width:  30%;
+  display:  flex;
+  justify-content: flex-start;
+}
+
 .footer-heading > ul {
   list-style: none;
-  padding-right:  250px;
-  padding-left:  24px;
+  padding-right:  25px;
 }
+
 .footer-heading > ul > li > a {
   list-style-type: none;
   color: black;
@@ -23,6 +30,14 @@ footer {
 }
 
 @media all and (max-width:  1024px) {
+  footer {
+    display:  flex;
+    flex-direction:  column;
+    justify-content:  flex-start;
+    align-items:  flex-start;
+    flex-wrap:  wrap;
+  }
+
 }
 
 @media all and (max-width:  748px) {
@@ -33,6 +48,7 @@ footer {
     align-items:  flex-start;
     flex-wrap:  wrap;
   }
+
 .footer-heading {
   align-content:  flex-start;
 }
