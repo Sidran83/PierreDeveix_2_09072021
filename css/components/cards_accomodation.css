@@ -151,6 +151,104 @@
 
 
 @media all and (max-width:  1024px) {
+
+  #accomodation {
+    display:  flex;
+    justify-content: space-between;
+    flex-direction:  column;
+  }
+
+  #card-accomodation {
+    margin-right:  15px;
+    border-radius:  15px;
+  }
+
+  #card-display {
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+    border-radius: 15px;
+  }
+
+  #card-popular {
+    margin-left: 0px;
+    border-radius:  0 0 0 0;
+    width:  auto;
+    border-radius:  15px;
+  }
+
+  #card-popular .card-appartment {
+    height:  210px;
+    width:  400px;
+    align-self: center;
+  }
+  #card-display .card-appartment {
+    height:  210px;
+    width:  400px;
+    align-self:  center;
+  }
+
+  #card-popular .card-appartment .rounded {
+    object-fit: cover;
+    height: 196px;
+    width: 170px;
+    padding: 7px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+
+  #card-display .card-appartment .rounded {
+    object-fit: cover;
+    height: 124px;
+    width: 386px;
+    padding: 7px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  #card-popular .card-appartment .first-line {
+    padding-top:  26px;
+    font-size:  20px;
+    font-weight:  bold;
+  }
+
+  #card-popular .card-appartment-infos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  #card-popular .card-appartment-infos p {
+    font-size: 16px;
+    opacity: .7;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  #card-popular .card-appartment-infos .stars {
+    padding-top: 52px;
+  }
+
+  #card-display .card-appartment-infos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    }
+
+  #card-display .card-appartment-infos p {
+    font-size: 16px;
+    opacity: .7;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+}
+
+
+@media all and (max-width:  748px) {
   #accomodation {
     display:  flex;
     flex-direction:  column-reverse;
@@ -179,7 +277,7 @@
   }
 
   #card-popular .card-appartment {
-    height:  140px;
+    height:  210px;
     width:  400px;
     align-self: center;
   }
@@ -189,12 +287,61 @@
     align-self:  center;
   }
 
+  #card-popular .card-appartment .rounded {
+    object-fit: cover;
+    height: 196px;
+    width: 170px;
+    padding: 7px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+
   #card-display .card-appartment .rounded {
     object-fit: cover;
-    height: 130px;
-    width: 390px;
-    padding: 5px;
+    height: 124px;
+    width: 386px;
+    padding: 7px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+  }
+
+  #card-popular .card-appartment .first-line {
+    padding-top:  26px;
+    font-size:  20px;
+    font-weight:  bold;
+  }
+
+  #card-popular .card-appartment-infos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  #card-popular .card-appartment-infos p {
+    font-size: 16px;
+    opacity: .7;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  #card-popular .card-appartment-infos .stars {
+    padding-top: 52px;
+  }
+
+  #card-display .card-appartment-infos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    }
+
+  #card-display .card-appartment-infos p {
+    font-size: 16px;
+    opacity: .7;
+    margin: 0;
+    padding-bottom: 5px;
   }
 }

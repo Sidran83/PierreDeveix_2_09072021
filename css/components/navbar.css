@@ -50,6 +50,9 @@
 }
 
 @media all and (max-width:  1024px) {
+}
+
+@media all and (max-width:  748px) {
 
   #full_navbar {
     display: flex;
@@ -58,7 +61,6 @@
 
   #login {
     width: 100%;
-    padding-right: 12px;
     display:  flex;
     justify-content: flex-end;
   }

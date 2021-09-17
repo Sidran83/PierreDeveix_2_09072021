@@ -125,7 +125,11 @@
   font-size: 12px;
 }
 
+
 @media all and (max-width:  1024px) {
+}
+
+@media all and (max-width:  748px) {
   #search {
     margin-left:  10px;
     margin-right:  10px;
