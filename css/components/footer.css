@@ -24,24 +24,18 @@ footer {
   font-size:  14px;
 }
 
-.footer-heading h2 {
-  font-size: 18px
+.footer-heading .heading-title {
+  font-size: 17px;
+  font-weight:  bold;
+  padding-bottom:  8px;
 }
 
 @media all and (max-width:  1024px) {
- /* footer {
-    display:  flex;
-    flex-direction:  column;
-    justify-content:  flex-start;
-    align-items:  flex-start;
-    flex-wrap:  wrap;
-  }*/
-
   .footer-heading {
-  width:  40%;
-  display:  flex;
-  justify-content: flex-start;
-}
+    width:  40%;
+    display:  flex;
+    justify-content: flex-start;
+  }
 
 }
 
