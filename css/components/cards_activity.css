@@ -4,6 +4,13 @@
   padding-top:  30px;
 }
 
+#activities > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
 
 #card-display-activities {
   display:  flex;
