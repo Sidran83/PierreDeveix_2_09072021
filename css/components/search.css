@@ -91,6 +91,14 @@
   font-weight: bold;
 }
 
+#filters li:hover {
+  background-color: #0065FC;
+}
+
+#filters li a:hover {
+  color:  white;
+}
+
 #filters li a i {
   display: inline-block;
   color:  #0065FC;
