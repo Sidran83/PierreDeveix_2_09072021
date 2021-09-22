@@ -15,7 +15,7 @@ header {
 }
 
 
-@media all and (max-width:  1033px) {
+@media all and (max-width:  1050px) {
   #bloc_page {
     margin:  0px;
   }
