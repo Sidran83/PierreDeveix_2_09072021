@@ -7,6 +7,7 @@
   background-color: #F2F2F2;
   border-radius:  15px;
   margin-right:  15px;
+  width:  70%;
 }
 
 #card-accomodation > h1 {
@@ -81,13 +82,14 @@
   background-color: #F2F2F2;
   border-radius:  15px;
   margin-left:  15px;
+  width:  30%;
 }
 
 #card-popular #title {
   display:  flex;
   justify-content:  space-between;
   padding-top: 8px;
-    padding-bottom: 2px;
+  padding-bottom: 2px;
 }
 
 #card-popular #title h1 {
@@ -108,11 +110,12 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
   margin:  24px;
-  width:  350px;
+  width:  85%;
+  height:  25%;
 }
 
 #card-popular .card-appartment-infos .stars {
-  padding-top:  28px;
+  padding-top:  42px;
 }
 
 #card-popular .card-appartment .first-line {
@@ -121,8 +124,8 @@
 
 #card-popular .card-appartment .rounded {
   object-fit: cover;
-  height: 130px;
-  width:  130px;
+  height: 140px;
+  width:  140px;
   padding:  5px;
   border-top-left-radius:  15px;
   border-bottom-left-radius:  15px;
@@ -150,8 +153,32 @@
   font-size:  13px;
 }
 
+@media all and (max-width:  1248px) {
 
-@media all and (max-width:  1024px) {
+  #card-popular .card-appartment-infos {
+  padding-left:  4px;
+}
+  #card-popular .card-appartment-infos .stars {
+    padding-top: 10px;
+  }
+}
+
+@media all and (max-width:  1146px) {
+  #card-popular .card-appartment-infos .stars {
+    padding-top: 0px;
+  }
+}
+
+@media all and (max-width:  1098px) {
+  #card-popular .card-appartment-infos p {
+    font-size: 12px;
+    opacity: .7;
+    margin: 0;
+    padding-bottom: 0px;
+  }
+}
+
+@media all and (max-width:  1033px) {
 
   #accomodation {
     display:  flex;
@@ -229,7 +256,7 @@
   }
 
   #card-popular .card-appartment-infos .stars {
-    padding-top: 52px;
+    padding-top: 10px;
   }
 
   #card-display .card-appartment-infos h2 {
