@@ -126,7 +126,10 @@
 }
 
 
-@media all and (max-width:  1024px) {
+@media all and (max-width:  1033px) {
+  #search {
+    margin:  8px;
+  }
 }
 
 @media all and (max-width:  748px) {

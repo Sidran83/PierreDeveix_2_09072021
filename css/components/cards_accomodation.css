@@ -183,12 +183,15 @@
   #accomodation {
     display:  flex;
     justify-content: space-between;
-    flex-direction:  column;
+    flex-direction:  column-reverse;
   }
 
   #card-accomodation {
     margin-right:  15px;
     border-radius:  15px;
+    width:  100%;
+    border-radius:  0px;
+    background-color: white;
   }
 
   #card-display {
@@ -199,10 +202,11 @@
   }
 
   #card-popular {
+
     margin-left: 0px;
     border-radius:  0 0 0 0;
-    width:  auto;
-    border-radius:  15px;
+    width:  100%;
+    border-radius:  0px;
   }
 
   #card-popular .card-appartment {
