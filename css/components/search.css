@@ -1,9 +1,9 @@
-/*------ TITLE ------*/
-#title h3 {
+/*------ DESCRIPTION ------*/
+#description h3 {
  font-weight:  bolder;
 }
 
-#title p {
+#description p {
   padding-top: 0px;
 }
 
@@ -177,12 +177,12 @@
     margin-right:  10px;
   }
 
-  #title h3 {
+  #description h3 {
     white-space: normal;
     font-size:  30px;
   }
 
-  #title p {
+  #description p {
     font-size:  17px;
   }
 
