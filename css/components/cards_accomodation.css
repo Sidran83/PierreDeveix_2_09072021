@@ -241,7 +241,6 @@
     border-bottom-left-radius: 15px;
   }
 
-
   #card-display .card-appartment .rounded {
     object-fit: cover;
     height: 124px;
@@ -314,7 +313,6 @@
 
 @media all and (max-width:  748px) {
 
-
   #card-popular {
     margin-left: 0px;
     border-radius:  0 0 0 0;
@@ -340,7 +338,6 @@
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
-
 
   #card-display .card-appartment .rounded {
     object-fit: cover;

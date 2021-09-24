@@ -1,9 +1,7 @@
-
 footer {
   background: #F2F2F2;
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer-heading {
@@ -30,14 +28,15 @@ footer {
   padding-bottom:  8px;
 }
 
+
 @media all and (max-width:  1024px) {
   .footer-heading {
     width:  40%;
     display:  flex;
     justify-content: flex-start;
   }
-
 }
+
 
 @media all and (max-width:  785px) {
   footer {
@@ -48,11 +47,11 @@ footer {
     flex-wrap:  wrap;
   }
 
-.footer-heading {
-  align-content:  flex-start;
-  width:  100%;
+  .footer-heading {
+    align-content:  flex-start;
+    width:  100%;
 
-}
+  }
 
   .footer-heading > ul {
     align-content: flex-start;

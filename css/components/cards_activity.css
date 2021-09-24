@@ -17,7 +17,6 @@
   justify-content:  space-between;
 }
 
-
 #card-display-activities .group-activity {
   width:  20%;
 }
@@ -45,23 +44,20 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-/*  margin:  24px;
-*/}
+}
 
 
 #activities .card-activity .rounded-big {
   object-fit: cover;
   height: 390px;
-/*  width:  300px;
-*/  border-top-left-radius:  15px;
+  border-top-left-radius:  15px;
   border-top-right-radius:  15px;
 }
 
 #activities .card-activity .rounded {
   object-fit:  cover;
   height: 130px;
-/*  width:  300px;
-*/  border-top-left-radius:  15px;
+  border-top-left-radius:  15px;
   border-top-right-radius:  15px;
 }
 
@@ -87,7 +83,6 @@
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-
 }
 
 #card-group1 .second-card {
@@ -96,26 +91,21 @@
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-
   margin-top:  50px;
   margin-bottom:  0px;
-
 }
-
 
 #card-group1 .first-card .rounded{
   object-fit:  cover;
   height: 180px;
-/*  width:  300px;
-*/  border-top-left-radius:  15px;
+  border-top-left-radius:  15px;
   border-top-right-radius:  15px;
 }
 
 #card-group1 .second-card .rounded{
   object-fit:  cover;
   height: 110px;
-/*  width:  300px;
-*/  border-top-left-radius:  15px;
+  border-top-left-radius:  15px;
   border-top-right-radius:  15px;
 }
 
@@ -123,7 +113,6 @@
   display:  flex;
   align-content:  space-between;
   flex-direction:  column;
-
 }
 
 #card-group2 .first-card {
@@ -132,7 +121,6 @@
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-
 }
 
 #card-group2 .second-card {
@@ -141,7 +129,6 @@
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 15px;
-
   margin-top:  40px;
   margin-bottom:  0px;
 }
@@ -149,16 +136,14 @@
 #card-group2 .first-card .rounded{
   object-fit:  cover;
   height: 140px;
-/*  width:  300px;
-*/  border-top-left-radius:  15px;
+  border-top-left-radius:  15px;
   border-top-right-radius:  15px;
 }
 
 #card-group2 .second-card .rounded{
   object-fit:  cover;
   height: 160px;
-/*  width:  300px;
-*/  border-top-left-radius:  15px;
+  border-top-left-radius:  15px;
   border-top-right-radius:  15px;
 }
 
@@ -198,24 +183,9 @@
     align-self: center;
   }
 
-  /*#card-display-activities {
-    flex-direction:  column;
-    display:  flex;
-    align-content:  space-between;
-    /*margin-left: 0px;
-    border-radius:  0 0 0 0;
-    width:  auto;
-  }*/*/
-
   #activities h1 {
     margin-left:  26px;
   }
-
- /* #card-display-activities .card-activity {
-    align-self: center;
-    height:  210px;
-    width:  400px;
-  }*/
 
   #activities .card-activity .rounded-big {
     object-fit: cover;
@@ -238,11 +208,10 @@
   #card-group1  .first-card {
     align-self: center;
     height:  210px;
-/*    width:  400px;
-*/    margin-bottom:  20px;
+    margin-bottom:  20px;
    }
 
-#card-group2  .first-card {
+  #card-group2  .first-card {
     align-self: center;
     height:  210px;
     width:  400px;
@@ -266,34 +235,34 @@
     padding: 7px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-   }
+  }
 
-   #card-group1 .second-card .rounded {
+  #card-group1 .second-card .rounded {
     object-fit: cover;
     height: 124px;
     width: 386px;
     padding: 7px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-   }
+  }
 
-   #card-group2  .first-card .rounded {
+  #card-group2  .first-card .rounded {
     object-fit: cover;
     height: 124px;
     width: 386px;
     padding: 7px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-   }
+  }
 
-   #card-group2 .second-card .rounded {
+  #card-group2 .second-card .rounded {
     object-fit: cover;
     height: 124px;
     width: 386px;
     padding: 7px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-   }
+  }
 
   #card-group1  .second-card {
     align-self: center;
